@@ -1,0 +1,81 @@
+
+/* Steps 1 through 3 */
+
+.grid {   
+  
+  display: ??? ;
+  grid-template-columns: ??? ; /* 4 columns */
+  grid-template-rows: ??? ; /* Thinner header and footer, larger main content */
+  
+  height: 500px;
+  width: 500px;
+  gap: 10px;
+  background-color: #2196f3; 
+  padding: 10px;
+}
+
+/* Box Styling */
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Step 4: Header */
+
+.header {
+  
+  grid-column: ??? ; /* Spans all 4 columns */
+  grid-row: ??? ; /* First row */
+  
+  background-color: lightcoral;
+}
+
+
+/* Step 5: Menu */
+
+.menu {
+  
+  grid-column: ??? ; /* Column 1 */
+  grid-row: ??? ; /* Row 2 */
+  
+  background-color: lightseagreen;
+}
+
+
+/* Step 6: Main Content */
+
+.main {
+  
+  grid-column: ??? ; /* From column 2 to 4 */
+  grid-row: ??? ; /* Row 2 */
+  
+  background-color: lightskyblue;
+}
+
+
+/* Step 7: Right Sidebar */
+
+.right {
+  
+  grid-column: ??? ; /* Column 4 */
+  grid-row: ??? ; /* Row 2 */
+  
+  background-color: lightgoldenrodyellow;
+}
+
+
+/* Step 8: Footer */
+
+.footer {
+  
+  grid-column: ??? ; /* Spans all 4 columns */
+  grid-row: ??? ; /* Third row */
+  
+  background-color: lightpink;
+}
